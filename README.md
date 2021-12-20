@@ -19,6 +19,13 @@ ronin agents are programs that can be deployed to systems for defensive purposes
   commands, opening TCP/UDP sockets, querying DNS, etc.
 * Only uses modules in Node stdlib.
 
+## Synopsis
+
+```shell
+$ node agent.js --help
+usage: usage: [--http PORT [HOST]] [--listen PORT [HOST]] [--connect HOST PORT]
+```
+
 ## Development
 
 1. [Fork It!](https://github.com/ronin-rb/ronin-agent-node/fork)
