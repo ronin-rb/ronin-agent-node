@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Util    = require('util');
 var FS      = require('fs');
 var Process = require('child_process');
@@ -299,7 +301,7 @@ Agent.TCP.ConnectBack.prototype.start = function(callback) {
 Agent.TCP.ConnectBack.prototype.stop = function() { this.connection.end(); }
 
 function usage() {
-  console.log("usage: {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}");
+  console.log("usage: node agent.js {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}");
   process.exit(-1);
 }
 

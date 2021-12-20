@@ -23,7 +23,7 @@ ronin agents are programs that can be deployed to systems for defensive purposes
 
 ```shell
 $ node agent.js --help
-usage: usage: {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}
+usage: usage: node agent.js {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}
 ```
 
 ## Development
