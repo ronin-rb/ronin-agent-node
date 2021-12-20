@@ -299,7 +299,7 @@ Agent.TCP.ConnectBack.prototype.start = function(callback) {
 Agent.TCP.ConnectBack.prototype.stop = function() { this.connection.end(); }
 
 function usage() {
-  console.log("usage: [--http PORT [HOST]] [--listen PORT [HOST]] [--connect HOST PORT]");
+  console.log("usage: {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}");
   process.exit(-1);
 }
 
