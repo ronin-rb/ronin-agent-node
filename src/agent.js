@@ -301,7 +301,8 @@ Agent.TCP.ConnectBack.prototype.start = function(callback) {
 Agent.TCP.ConnectBack.prototype.stop = function() { this.connection.end(); }
 
 function usage() {
-  console.log("usage: node agent.js {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}");
+  var path = require('path');
+  console.log("usage: node " + path.basename(__filename) + " {--http PORT [HOST] | --listen PORT [HOST] | --connect HOST PORT}");
   process.exit(-1);
 }
 
