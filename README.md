@@ -3,7 +3,8 @@
 * [Source](https://github.com/ronin-rb/ronin-agent-node)
 * [Issues](https://github.com/ronin-rb/ronin-agent-node/issues)
 * [Discord](https://discord.gg/6WAb3PsVX9) |
-  [Twitter](https://twitter.com/ronin_rb)
+  [Twitter](https://twitter.com/ronin_rb) |
+  [Mastodon](https://infosec.exchange/@ronin_rb)
 
 ronin-agent-node is a ronin agent written in [node.js].
 
