@@ -2,8 +2,7 @@
 
 * [Source](https://github.com/ronin-rb/ronin-agent-node)
 * [Issues](https://github.com/ronin-rb/ronin-agent-node/issues)
-* [Slack](https://ronin-rb.slack.com) |
-  [Discord](https://discord.gg/6WAb3PsVX9) |
+* [Discord](https://discord.gg/6WAb3PsVX9) |
   [Twitter](https://twitter.com/ronin_rb)
 
 ronin-agent-node is a ronin agent written in [node.js].
